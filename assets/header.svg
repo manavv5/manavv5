@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Manav Sharma — Hardware meets code</title>
+  <desc id="desc">A dark navy and cyan circuit-inspired header for an ECE and FPGA engineer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b16"/>
+      <stop offset="0.55" stop-color="#111a34"/>
+      <stop offset="1" stop-color="#17294a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#7c83ff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#90a4c5" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="22" fill="url(#grid)"/>
+  <path d="M0 254 H250 L285 219 H405 M820 58 H920 L958 96 H1200 M860 300 V245 L900 205 H1200" fill="none" stroke="#00d9ff" stroke-opacity=".38" stroke-width="2"/>
+  <path d="M0 58 H120 L158 96 H235 M950 300 V260 L990 220 H1200 M1000 0 V35 L1030 65 H1200" fill="none" stroke="#7c83ff" stroke-opacity=".45" stroke-width="2"/>
+  <g fill="#00e5ff" filter="url(#glow)">
+    <circle cx="250" cy="254" r="4"/><circle cx="405" cy="219" r="4"/><circle cx="820" cy="58" r="4"/><circle cx="958" cy="96" r="4"/>
+  </g>
+  <g transform="translate(870 100)" opacity=".9">
+    <rect x="0" y="0" width="178" height="112" rx="13" fill="#0a1226" stroke="url(#accent)" stroke-width="2.5"/>
+    <rect x="22" y="21" width="134" height="70" rx="6" fill="#111e3b" stroke="#3b5a8a" stroke-width="1.5"/>
+    <path d="M-13 18 H0 M-13 40 H0 M-13 62 H0 M-13 84 H0 M178 18 H191 M178 40 H191 M178 62 H191 M178 84 H191 M30 -13 V0 M58 -13 V0 M86 -13 V0 M114 -13 V0 M142 -13 V0 M30 112 V125 M58 112 V125 M86 112 V125 M114 112 V125 M142 112 V125" stroke="#00d9ff" stroke-width="4" stroke-linecap="round"/>
+    <text x="89" y="48" fill="#00e5ff" font-family="monospace" font-size="15" text-anchor="middle" letter-spacing="2">RTL</text>
+    <text x="89" y="70" fill="#e5f2ff" font-family="monospace" font-size="13" text-anchor="middle">0101 1010</text>
+  </g>
+  <text x="72" y="96" fill="#8ca2c7" font-family="monospace" font-size="15" letter-spacing="4">ECE UNDERGRAD · IIIT NAGPUR</text>
+  <text x="68" y="158" fill="#f4f8ff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="1">MANAV SHARMA</text>
+  <rect x="72" y="181" width="365" height="4" rx="2" fill="url(#accent)"/>
+  <text x="72" y="220" fill="#b8c7e5" font-family="monospace" font-size="19">DIGITAL DESIGN  /  VERILOG  /  FPGA</text>
+  <text x="72" y="251" fill="#6feaff" font-family="monospace" font-size="14" letter-spacing="1.8">LEARN  →  BUILD  →  SIMULATE  →  DEBUG</text>
+  <path d="M0 288 H1200" stroke="url(#accent)" stroke-width="3" opacity=".85"/>
+</svg>
